@@ -1,0 +1,76 @@
+% !TeX root = ../libro.tex
+% !TeX encoding = utf8
+
+%*******************************************************
+% Little Dirty Titlepage
+%*******************************************************
+
+\newcommand{\miTitulo}{Herramientas y estrategias de parameter tuning aplicadas a la neurociencia computacional\xspace}
+\newcommand{\miNombre}{Andrés Arco López\xspace}
+\newcommand{\miGrado}{Grado en Ingeniería Informática}
+\newcommand{\miFacultadC}{Facultad de Ciencias}
+\newcommand{\miFacultadI}{Escuela Técnica Superior de Ingeniería Informática y Telecomunicación}
+\newcommand{\miUniversidad}{Universidad de Granada}
+% Añadir tantos tutores como sea necesario separando cada uno de ellos
+% mediante el comando \\\medskip y una línea en blanco
+\newcommand{\miTutorI}{
+  Pablo Martínez Cañada \\ \emph{Departamento de Ingeniería de Computadores, Automática y Robótica}
+}
+
+\newcommand{\miCurso}{2022-2023\xspace}
+
+\thispagestyle{empty}
+
+\begin{center}
+  \large
+
+  \vspace*{\stretch{1}}
+
+  \begingroup
+  \huge{\miTitulo} \\ \bigskip
+  \endgroup
+
+  \textrm{\miNombre}
+
+  \vspace{\stretch{5}}
+
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+
+\hfill
+
+\vfill
+
+\noindent\miNombre. \textit{\miTitulo}.
+
+Trabajo de fin de Grado. Curso académico \miCurso.
+
+\begin{minipage}[t]{0.25\textwidth}
+  \flushleft
+  \textbf{Responsables de tutorización}
+\end{minipage}
+\begin{minipage}[t]{0.45\textwidth}
+  \flushleft
+  \miTutorI
+  \medskip \\
+\end{minipage}
+\begin{minipage}[t]{0.30\textwidth}
+  \flushright
+
+  \miFacultadI
+  \medskip
+
+  \miFacultadC
+  \medskip \medskip
+  
+  \miGrado
+  \medskip
+  
+  \miUniversidad
+\end{minipage}
+\begin{flushleft}
+\end{flushleft}
+
+\endinput
